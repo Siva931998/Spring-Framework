@@ -4,3 +4,10 @@
 	filemode = false
 	bare = true
 	logallrefupdates = false
+[remote "origin"]
+	url = https://github.com/Siva931998/SpringBoot.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+	rebase = false
