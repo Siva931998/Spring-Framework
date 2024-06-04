@@ -41,5 +41,20 @@
 	</map>
 	</property>
 	</bean>
+	
+	
+	<bean id="Dude" class="org.sample.spring.ConstructorSpringBoot">
+	
+	<constructor-arg>
+	<value>Rohitsiva</value>
+	</constructor-arg>
+	
+	<constructor-arg>
+	<value>26</value>
+	</constructor-arg>
+	
+	
+	</bean>
+	
 
 </beans>
