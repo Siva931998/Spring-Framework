@@ -19,5 +19,27 @@
 	</set>
 	</property>
 	</bean>
+	
+	
+	<bean id= "hey" class="org.sample.spring.Student"
+	p:name="rocky"
+	>
+	<property name="rollnumber" value="109"></property>
+	<property name="statusandlanguage">
+	<map>
+	<entry key="Tamilnadu">
+	<value>Tamil</value>
+	</entry>
+	
+	<entry>
+	<key>
+	<value>karnataka</value>
+	</key>
+	<value>kannada</value>
+	</entry>
+	
+	</map>
+	</property>
+	</bean>
 
 </beans>
