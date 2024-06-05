@@ -53,6 +53,21 @@
 	<value>26</value>
 	</constructor-arg>
 	
+	</bean>
+	
+	<bean id="employee" class="org.sample.spring.ConstructorSpringBoot">
+	<constructor-arg>
+	<value>Rai</value>
+	</constructor-arg>
+	<constructor-arg value="30"></constructor-arg>
+	<constructor-arg>
+	<set>
+	<value>1234567890</value>
+	<value>0987654321</value>
+	</set>
+	</constructor-arg>
+	
+
 	
 	</bean>
 	

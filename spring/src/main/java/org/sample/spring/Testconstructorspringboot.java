@@ -12,7 +12,9 @@ public class Testconstructorspringboot {
 		
 		System.out.println(csb);
 	
-	
+		ConstructorSpringBoot csb1 = (ConstructorSpringBoot)context.getBean("employee");
+		
+		System.out.println(csb1);
 	}
 
 }
