@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<bean name="person" class="org.sample.ref_type.Person"
+	p:id="112" p:name="rohitsiva" p:phnnum="9876543210"
+	>
+	<property name="address">
+	<bean name="Address" class="org.sample.ref_type.Address"
+	p:pincode="987678" p:city= "chennai">
+	</bean>
+	</property>
+	
+	</bean>
+	
+
+</beans>
